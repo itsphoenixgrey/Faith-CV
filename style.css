@@ -1,0 +1,97 @@
+*{
+    margin:0.5em;
+    background-color: whitesmoke;
+}
+body{
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.cv-head{
+    display: flex;
+    margin-bottom: 0;
+}
+.left, 
+.right{
+width: 50%;
+}
+.right{
+color: blue;
+text-decoration: underline;
+ }
+
+.header{
+    margin-bottom: 1.1em;
+    height: max-content;
+}
+
+.header h1{
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.header p{
+    text-align: center;
+    margin-bottom: 0.3em
+
+}
+.cv-body{
+    padding: 0.5em;
+
+}
+ #cv-statement h6{
+    font-size: 17px;
+    text-decoration-line: underline;
+    font: weight 650px;;
+ }
+ #cv-statement p{
+    text-align: center;
+ }
+ .work{
+    padding: 1em;
+
+}
+#experience h6{
+  font-size: 17px;
+    text-decoration-line: underline;
+    font: weight 700px;
+    padding:0.1em
+}
+#experience p{
+  text-align:center;
+  font-weight: bold;
+  padding:0.5em
+}
+
+ul{
+  padding:0.1em;
+}
+li{
+  padding:0.1em;
+  list-style-type: none;
+}
+
+
+ .referee h6{
+     font-size: 17px;
+     text-decoration: underline;
+     font-weight: 700px;
+     padding: 1em;
+ }
+#refree-holder{
+   overflow: auto;
+   width: 900px;
+}
+#referee-left, 
+#referee-right{
+width: 40%;
+padding: bottom 3px solid whitesmoke;
+margin: 5px;
+padding: 1em;
+background: whitesmoke;
+ }
+ #referee-left{float: left;}
+#referee-right{float: right;}
+
+
+  
